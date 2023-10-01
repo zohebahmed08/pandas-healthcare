@@ -3,7 +3,8 @@ import numpy as np
 from scipy.stats import skew, kurtosis
 
 # Load the data from the specified file path
-file_path = r'E:\COLLEGE CODES\archive\Healthcare-Diabetes.csv'
+#add your file path where you saved the CSV file
+file_path = r'E:\Healthcare-Diabetes.csv'
 data = pd.read_csv(file_path)
 
 # Data Cleaning (you can customize this based on your dataset)
